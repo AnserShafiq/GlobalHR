@@ -1,0 +1,90 @@
+
+  .circle-container {
+    position: relative;
+    width: 32em; /* Base width for the largest circle */
+    height: 32em; /* Base height for the largest circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling each circle layer */
+  .circle {
+    position: absolute;
+    border: 1px solid #ededed5f; /* Base border color */
+    border-radius: 50%;
+    background-color: transparent;
+    opacity: 0; /* Start as invisible */
+    animation: fadeIn 5s ease-in forwards; /* Fade in animation */
+  }
+  
+  /* Sizes for each circle using calc() */
+  .circle:nth-child(1) {
+    width: 32em; 
+    height: 32em; 
+    border-color: #ededed11; /* Light border color */
+  }
+  
+  .circle:nth-child(2) {
+    width: 26em;
+    height: 26em;
+    border-color: #ededed33; /* Semi-transparent black */
+  }
+  
+  .circle:nth-child(3) {
+    width: 20em; 
+    height: 20em; 
+    border-color: #ededed66; /* Less transparent black */
+  }
+  
+  .circle:nth-child(4) {
+    width: 14em; 
+    height: 14em; 
+    border-color: #edededae; /* More opaque black */
+  }
+  
+  .circle:nth-child(5) {
+    width: 8em; 
+    height: 8em; 
+    border-color: #edededff; /* Fully opaque black */
+  }
+  
+  /* Keyframes for fade in effect */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; /* Start completely invisible */
+    }
+    100% {
+      opacity: 1; /* End completely visible */
+    }
+  }
+  
+  /* Adding delay to each circle for staggered fade-in */
+  .circle:nth-child(1) {
+    animation-delay: 3s; /* Largest circle */
+  }
+  
+  .circle:nth-child(2) {
+    animation-delay: 2.5s; /* Second circle */
+  }
+  
+  .circle:nth-child(3) {
+    animation-delay: 2s; /* Third circle */
+  }
+  
+  .circle:nth-child(4) {
+    animation-delay: 1.5s; /* Fourth circle */
+  }
+  
+  .circle:nth-child(5) {
+    animation-delay: 1s; /* Fifth circle */
+  }
+  
+  .circle:nth-child(6) {
+    animation-delay: 0.5s; /* Sixth circle */
+  }
+  
+  .circle:nth-child(7) {
+    animation-delay: 0s; /* Seventh circle */
+  }
+  
