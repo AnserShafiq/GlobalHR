@@ -6,7 +6,7 @@ import { TiThMenuOutline as Menu} from "react-icons/ti";
 
 const Header = () => {
     const location = useLocation(); // Get the current location
-    const [ShowHeader, setShowHeader] = useState(false);
+    const [ShowHeader, setShowHeader] = useState(true);
     const [lastScrollPositionY, setLastScrollPosition] = useState(0)
     const [menuItems, setMenuItems] = useState([
         {
