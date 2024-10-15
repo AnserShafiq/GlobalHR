@@ -4,6 +4,7 @@
 
 *{
     --logo-red-color: #88171f;
+    ---color: #9d838575;
 }
 
 ::-webkit-scrollbar{
