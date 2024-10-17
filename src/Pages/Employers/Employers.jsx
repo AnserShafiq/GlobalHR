@@ -1,6 +1,7 @@
 import React from 'react'
 import PageStarter from '../../Components/PageStarter'
 import ES_2 from './Sections/ES_2'
+import IndustriesSlide from '../../Components/IndustriesSlide'
 
 const Employers = () => {
   const SectionOneData = {
@@ -16,6 +17,7 @@ const Employers = () => {
     <div>
       <PageStarter BodyData={SectionOneData}/>
       <ES_2 />
+      <IndustriesSlide />
     </div>
   )
 }
