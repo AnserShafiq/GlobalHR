@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const AS_2 = () => {
   return (
-    <div className='flex flex-col lg:flex-row px-[7%] py-[10%] lg:py-[7%]'>
+    <div className='flex flex-col lg:flex-row px-[7%] py-[10%] lg:pt-[4%] lg:pb-[7%]'>
         <div className='flex flex-col lg:flex-row'>
           <h2 className='text-[2.0rem] font-semibold capitalize leading-tight w-full lg:w-[30%]'>About the Global HR staffing & recruiting experts </h2>
           <div className='flex flex-col w-full lg:w-[70%] mt-[10%] lg:mt-0'>

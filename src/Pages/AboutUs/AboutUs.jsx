@@ -1,8 +1,8 @@
 import React from 'react'
-import AS_1 from './Sections/AS_1'
 import AS_2 from './Sections/AS_2'
 import AS_3 from './Sections/AS_3'
 import ContactCard from '../../Components/ContactCard'
+import PageStarter from '../../Components/PageStarter'
 
 const AboutUs = () => {
   const Data = {
@@ -11,9 +11,21 @@ const AboutUs = () => {
       BtnLink:'/contact-us',
       SidePic:require('../../Images/About/a-4.jpg'),
   }
+
+  const PageStart = {
+    Bg1: require('../../Images/about-bg-1.png'),
+    Bg2: require('../../Images/home-bg-2-mobile.png'),
+    Anime: require('../../Images/About/a-1.png'),
+    Title: 'Strategic Staffing for Distinct Industry Demands',
+    MiniDesc: 'With over a decade of expertise, Global HR delivers comprehensive personnel management services. Our customized solutions help businesses overcome unique challenges, optimizing time and resources for better results.',
+    BtnText: 'Get Connect With Us',
+    BtnLink: '/',
+  }
+
   return (
     <div>
-      <AS_1 />
+      {/* Section 1 */}
+      <PageStarter BodyData={PageStart} />
       <AS_2 />
       <AS_3 />
       <ContactCard CardData={Data}/>  

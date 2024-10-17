@@ -12,8 +12,8 @@ const ContactCard = ({CardData}) => {
             <Link className='text-[1.1rem] w-fit lg:text-[1.25rem] capitalize font-[400] text-logo-red border-2 border-logo-red rounded-md px-3 py-2 mt-3 hover:text-neutral-100 hover:bg-logo-red transition ease-in-out duration-[0.5s]' to={CardData.BtnLink}>{CardData.BtnText}</Link>
           </div>
         </div>
-        <div className='w-full lg:w-[35%] rounded-r-[30px]'>
-            <img className='w-full h-[300px] lg:h-full object-cover object-center rounded-t-[30px] lg:rounded-r-[30px]' src={CardData.SidePic} alt={`Contact Card Pic`}/>
+        <div className='w-full lg:w-[35%] rounded-r-[30px] p-0'>
+            <img className='w-full h-[300px] lg:h-full object-cover object-center rounded-t-[30px] lg:rounded-tl-none lg:rounded-r-[30px]' src={CardData.SidePic} alt={`Contact Card Pic`}/>
         </div>
     </div>
   )
