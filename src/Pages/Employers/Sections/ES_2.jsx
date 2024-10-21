@@ -19,7 +19,7 @@ const ES_2 = () => {
   return (
     <div className='flex flex-col lg:flex-row px-[7%] py-[10%] lg:pt-[4%] lg:pb-[7%]'>
       {Content.map((Data, index) => (
-        <div className={`flex flex-col items-center text-center w-[50%] lg:px-[5%] ${Data.divider ? 'lg:border-r-[0.5px] lg:border-[#00000044]':'lg:border-l-[0.5px] lg:border-[#00000044]'}`} key={index}>
+        <div className={`flex flex-col items-center text-center lg:w-[50%] lg:px-[5%] ${Data.divider ? 'lg:border-r-[0.5px] lg:border-[#00000044]':'mt-[10%] lg:mt-0 lg:border-l-[0.5px] lg:border-[#00000044]'}`} key={index}>
           <img className='w-[340px] h-[340px] rounded-[50%] mx-auto object-center object-cover shadow-md shadow-[#0000001f] ' src={Data.img} alt={`${Data.heading}'s Pic`} />
           <h3 className='text-[1.6rem] font-[500] capitalize mt-4' >
             {Data.heading}

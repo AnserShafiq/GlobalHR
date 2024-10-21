@@ -3,10 +3,11 @@ import PageStarter from '../../Components/PageStarter'
 import ES_2 from './Sections/ES_2'
 import IndustriesSample from '../../Components/IndustriesSample'
 import ContactCard from '../../Components/ContactCard'
+import ES_4 from './Sections/ES_4'
 
 const Employers = () => {
   const SectionOneData = {
-    Bg1: require('../../Images/home-bg-2.png'),
+    Bg1: require('../../Images/about-bg-1.png'),
     Bg2: require('../../Images/home-bg-2-mobile.png'),
     Anime: require('../../Images/Employers/e-1.png'),
     Title: 'Drive Business Growth with Quality Workforce Solutions',
@@ -34,6 +35,7 @@ const Employers = () => {
       <PageStarter BodyData={SectionOneData}/>
       <ES_2 />
       <IndustriesSample MainHeading={IndustriesSection.MainHead} Description={IndustriesSection.Description} SideImg={IndustriesSection.SideImg} ImgPosition={IndustriesSection.ImgSide} />
+      <ES_4 />
       <ContactCard  CardData={ContactData}/>
     </div>
   )

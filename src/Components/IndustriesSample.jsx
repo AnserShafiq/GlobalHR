@@ -22,7 +22,7 @@ const IndustriesSample = ({MainHeading, Description, SideImg, ImgPosition}) => {
 
 
   return (
-    <div className={`flex flex-col ${ImgPosition === 'Left' ? 'lg:flex-row':'lg:flex-row-reverse'} px-[7%] py-[10%] lg:pt-[0%] lg:pb-[0%]`}>
+    <div className={`flex flex-col ${ImgPosition === 'Left' ? 'lg:flex-row':'lg:flex-row-reverse'} px-[7%] py-[10%] lg:pt-[0%] lg:pb-[6%]`}>
         <div className='flex w-[25%] overflow-hidden  rounded-[30px] shadow-md shadow-zinc-40'>
             <img className='w-full h-full object-cover object-center rounded-[30px]0' src={SideImg} alt={MainHeading}/>
         </div>

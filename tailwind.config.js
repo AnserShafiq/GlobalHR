@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       colors:{
         'logo-red': '#88171f',
+      },
+      backgroundImage:{
+        'special-bg-1': "url('/src/Images/Employers/e-5.png')",
       }
     },
   },
