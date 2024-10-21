@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './Slider.css'
-
 const SlidesData = [
 {
     img: require('../Images/Home/h1.jpg'),
