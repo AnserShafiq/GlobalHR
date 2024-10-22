@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const ContactCard = ({CardData}) => {
   return (
-    <div className='flex flex-col-reverse lg:flex-row w-[88%] lg:w-[70%] mx-auto my-[5%] h-auto lg:h-[300px] rounded-[30px] shadow-md shadow-[#00000022]'>
+    <div className='flex flex-col-reverse lg:flex-row w-[88%] lg:w-[70%] mx-auto my-[14%] lg:my-[5%] h-auto lg:h-[300px] rounded-[30px] shadow-md shadow-[#00000022]'>
         <div className='w-full lg:w-[65%] flex flex-col relative rounded-l-[30px]'>
           <img className='object-cover h-[260px] lg:h-[100%] w-full rounded-b-[30px] lg:rounded-l-[30px]' src={Background} alt='Contact Card Bg' />
           <div className='flex flex-col justify-center px-[5%] absolute left-0 top-0 content-0 w-full h-full bg-[#FFF4F888] lg:rounded-l-[30px]'>

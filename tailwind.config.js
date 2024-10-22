@@ -9,7 +9,8 @@ module.exports = {
         'logo-red': '#88171f',
       },
       backgroundImage:{
-        'special-bg-1': "url('/src/Images/Employers/e-5.png')",
+        'special-bg-1': "url('/src/Images/section-bg-1.png')",
+        'special-bg-2': "url('/src/Images/section-bg-2.png')",
       }
     },
   },

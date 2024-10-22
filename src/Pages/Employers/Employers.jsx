@@ -24,10 +24,10 @@ const Employers = () => {
   }
 
   const ContactData = {
-    Tagline:'Get started and grow your business or career with us.',
-    BtnText:'To hit your life target',
+    Tagline:'Accelerate Your Business with Top-Tier Talent Tailored to Your Needs.',
+    BtnText:'To apply for talents',
     BtnLink:'/contact-us',
-    SidePic:require('../../Images/About/a-4.jpg'),
+    SidePic:require('../../Images/Employers/e-5.jpg'),
   }
 
   return (
@@ -36,7 +36,7 @@ const Employers = () => {
       <ES_2 />
       <IndustriesSample MainHeading={IndustriesSection.MainHead} Description={IndustriesSection.Description} SideImg={IndustriesSection.SideImg} ImgPosition={IndustriesSection.ImgSide} />
       <ES_4 />
-      <ContactCard  CardData={ContactData}/>
+      <ContactCard CardData={ContactData}/>
     </div>
   )
 }
