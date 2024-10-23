@@ -51,20 +51,20 @@ const Header = () => {
         }
     })
 
-    useEffect(() => {
-        if(location.pathname === '/'){
-            setOnHome(true);
-        }else{
-            setOnHome(false)
-        }
-        if(location.pathname === '/contact-us'){
-            setOnContact(true);
-        }else{
-            setOnContact(false)
-        }
+    // useEffect(() => {
+    //     if(location.pathname === '/'){
+    //         setOnHome(true);
+    //     }else{
+    //         setOnHome(false)
+    //     }
+    //     if(location.pathname === '/contact-us'){
+    //         setOnContact(true);
+    //     }else{
+    //         setOnContact(false)
+    //     }
 
 
-    },[location])
+    // },[location])
 
 
     useEffect(() => {
@@ -116,7 +116,7 @@ const Header = () => {
                 </div>
             </div>
         </div>
-        {/* <div className={`${sideMenu ? ' translate-x-0 opacity-100':'-translate-x-full opacity-0'} flex fixed top-0 z-[999] w-[100%] h-[100vh] overflow-hidden bg-[#00000044] transition-all ease-in-out duration-[0.5s] transform translate-x-0`} id='SideMenu'>
+        <div className={`${sideMenu ? ' translate-x-0 opacity-100':'-translate-x-full opacity-0'} flex fixed top-0 z-[999] w-[100%] h-[100vh] overflow-hidden bg-[#00000044] transition-all ease-in-out duration-[0.5s] transform translate-x-0`} id='SideMenu'>
 
             <div className={`flex flex-col px-[3%] py-[0%] w-[94%] h-full bg-[#ffffff] transition-all ease-in-out duration-[0.5s] transform translate-x-0 ${sideMenu ? 'translate-x-0 opacity-100':'-translate-x-full opacity-0'}`}>
                 <div className='flex relative flex-col items-start mt-[5%] pl-[5%]'>
@@ -163,7 +163,7 @@ const Header = () => {
 
             </div>
 
-        </div> */}
+        </div>
     </>
     );
 }
