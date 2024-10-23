@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home/Home'
-// import Header from './Components/Header'
+import Header from './Components/Header'
 import AboutUs from './Pages/AboutUs/AboutUs'
 import Talent from './Pages/Talent/Talent'
 import Employers from './Pages/Employers/Employers'
@@ -12,7 +12,7 @@ import Footer from './Components/Footer'
 const App = () => {
   return (
     <Router>
-      {/* <Header /> */}
+      <Header />
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about-us' element={<AboutUs/>} />
