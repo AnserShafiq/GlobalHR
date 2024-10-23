@@ -115,10 +115,9 @@ const Header = () => {
                     <Menu className='text-[2rem]' onClick={OpenSideMenu}/>
                 </div>
             </div>
-        </div>
-        <div className={`${sideMenu ? 'flex':'hidden'} fixed top-0 z-[999] w-[100%] h-[100vh] overflow-hidden bg-[#00000044]`} id='SideMenu'>
-
-            <div className={`flex flex-col px-[3%] py-[0%] w-[94%] h-full bg-[#ffffff] transition-all ease-in-out duration-[1s] transform translate-x-0 ${sideMenu ? 'translate-x-0 opacity-100':'-translate-x-full opacity-0'}`}>
+            <div className={`flex fixed top-0 z-[999] w-[100%] h-[100vh] overflow-hidden bg-[#00000044] transition-all ease-in-out duration-[1s] transform ${sideMenu ? 'translate-x-0 opacity-100':'-translate-x-100 opacity-0'}`} id='SideMenu'>
+            {/* Mobile Menu */}
+            <div className={`flex flex-col px-[3%] py-[0%] w-[94%] h-full bg-[#ffffff] `}>
                 <div className='flex relative flex-col items-start mt-[5%] pl-[5%]'>
                     <img className='w-[10rem] mt-[7%]' src={Logo} alt='Mobile View Logo'/>
                     <h3 className='text-[2.4rem] font-semibold leading-tight tracking-wider uppercase'>Global HR</h3>
@@ -163,7 +162,9 @@ const Header = () => {
 
             </div>
 
+            </div>
         </div>
+
     </>
     );
 }
