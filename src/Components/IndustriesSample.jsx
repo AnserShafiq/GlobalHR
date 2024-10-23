@@ -5,17 +5,17 @@ const IndustriesSample = ({MainHeading, Description, SideImg, ImgPosition}) => {
 
     const MajorIndustries = [
         {
+            title: 'General Labour',
+            icon: require('../Images/IndustryIcons/GeneralLabour.png'),
+        },{
+            title: 'Shipping / Receiving',
+            icon: require('../Images/IndustryIcons/Shipping.png'),
+        },{
+            title: 'Order Picking',
+            icon: require('../Images/IndustryIcons/OrderPicking.png'),
+        },{
             title: 'Manufacturing',
             icon: require('../Images/IndustryIcons/Manufacturing.png'),
-        },{
-            title: 'Information Technology',
-            icon: require('../Images/IndustryIcons/InfoTech.png'),
-        },{
-            title: 'Healthcare',
-            icon: require('../Images/IndustryIcons/Healthcare.png'),
-        },{
-            title: 'Marketing & Finance',
-            icon: require('../Images/IndustryIcons/Financial.png'),
         }
 
     ]
