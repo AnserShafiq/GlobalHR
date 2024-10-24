@@ -25,7 +25,7 @@ const HS_5 = () => {
             subtitle: 'Expert Consultation Services',
             title:'Expert HR Consulting Services',
             description:' Leverage our industry expertise with personalized consultation services. Our team of seasoned HR professionals is ready to guide you through complex HR challenges and develop effective strategies for success.',
-            button: 'How we handles',
+            button: 'How we handle',
             link:'/our-services',
             reverse:false,
         },{
