@@ -110,6 +110,7 @@ const Header = () => {
                             {Item.name}
                         </Link>
                     ))}
+                    <Link className='text-[1.1rem] hover:text-[1.06rem] mr-5 px-4 py-1 bg-logo-red rounded-[5px] text-slate-50  hover:bg-transparent hover:rounded-[5px] hover:border-2 hover:border-logo-red hover:text-logo-red transition duration-[0.4s] ease-in-out hover:scale-[1.01]' to={'/contact-us'} >Contact Us</Link>
                 </div>
                 <div className='block lg:hidden'>
                     <Menu className='text-[2rem]' onClick={OpenSideMenu}/>
