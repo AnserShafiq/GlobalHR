@@ -8,6 +8,8 @@ import Employers from './Pages/Employers/Employers'
 import OurServices from './Pages/OurServices/Services'
 import ContactUs from './Pages/ContactUs/ContactUs'
 import Footer from './Components/Footer'
+import JobForTalent from './Pages/Applications/Job'
+
 
 const App = () => {
   return (
@@ -17,9 +19,13 @@ const App = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/about-us' element={<AboutUs/>} />
         <Route path='/for-talent' element={<Talent/>} />
+        <Route path='/for-talent/application/' element={<JobForTalent />}/>
         <Route path='/for-employers' element={<Employers/>} />
         <Route path='/our-services' element={<OurServices/>} />
         <Route path='/contact-us' element={<ContactUs />} />
+        
+
+
       </Routes>
       <Footer />
     </Router>

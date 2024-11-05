@@ -15,7 +15,7 @@ const Home = () => {
     Title: 'Your Partner in Talent & Opportunity',
     MiniDesc: 'We simplify the job search for individuals, empowering them to find the right opportunities that align with their skills and aspirations. At the same time, we provide businesses with highly qualified and well-matched candidates, ensuring they have the right talent to drive their success and achieve their goals.',
     BtnText: 'To Explore Options',
-    BtnLink: '/contact-us',
+    BtnLink: '/for-talent/application/',
   }
 
   return (
