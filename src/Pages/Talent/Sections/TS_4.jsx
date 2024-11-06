@@ -50,7 +50,7 @@ const TS_4 = () => {
                     ))
                 }
             </div>
-            <Link className='text-[1.2rem] w-fit lg:text-[1.1rem] capitalize font-[400] text-slate-100 border-2 border-slate-100 rounded-md px-3 py-3 hover:text-logo-red hover:bg-slate-100 transition ease-in-out duration-[0.5s] mb-[15%] lg:mb-0 mr-0 lg:mr-8' to={'/for-employers'}>Enroll To Be Option</Link>
+            <Link className='text-[1.2rem] w-fit lg:text-[1.1rem] capitalize font-[400] text-slate-100 border-2 border-slate-100 rounded-md px-3 py-3 hover:text-logo-red hover:bg-slate-100 transition ease-in-out duration-[0.5s] mb-[15%] lg:mb-0 mr-0 lg:mr-8' to={'/for-talent/application/'}>Enroll To Be Option</Link>
         </div>
     </div>
   )

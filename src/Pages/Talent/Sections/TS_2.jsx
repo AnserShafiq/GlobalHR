@@ -8,19 +8,19 @@ const TS_2 = () => {
             title: 'Guidance from our agents',
             description: 'We can assist you through the entire process of getting hired from start to finish.',
             button: 'Apply now',
-            Link:'/about-us',
+            Link:'/for-talent/application/',
         },{
             picture: require('../../../Images/Talent/t-3.jpg'),
             title: 'Perfect job placement',
             description: "We'll find you a job placement that matches your skills, schedule, and location.",
             button: 'Enroll for a job',
-            Link:'/for-talent',
+            Link:'/for-talent/application/',
         },{
             picture: require('../../../Images/Talent/t-2.jpg'),
             title: 'Ongoing Support',
             description: "After getting you a placement you desire we'll still be here to answer all your questions and concerns.",
             button: 'Get Started',
-            Link:'/for-talent',
+            Link:'/for-talent/application/',
         }
     ]
     return (

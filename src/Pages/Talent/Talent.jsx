@@ -13,7 +13,7 @@ const Talent = () => {
     Title: 'Personalized Job Matches for Your Career Advancement',
     MiniDesc: "We understand your unique strengths and focus on finding job options that fit your career life and aspirations. Our expert team works to present you with opportunities that align with your experience and goals, ensuring you land the right job faster.",
     BtnText: "To Seek Job Options",
-    BtnLink: '/contact-us',
+    BtnLink: '/for-talent/application/',
   }
 
   const IndustriesSection = {
@@ -26,7 +26,7 @@ const Talent = () => {
   const ContactData = {
     Tagline:'Enhance Your Career with Exceptional Opportunities That Match Your Skills.',
     BtnText:'Submit Your Application',
-    BtnLink:'/contact-us',
+    BtnLink:'/for-talent/application/',
     SidePic:require('../../Images/Talent/t-6.jpg'),
   }
 

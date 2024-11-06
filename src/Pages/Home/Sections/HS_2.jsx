@@ -14,7 +14,7 @@ const HS_2 = () => {
             title: 'Join as a Job Seeker',
             description: 'Searching for the ideal job? Let HR Global guide you to opportunities that fit your professional goals.',
             button: 'Enroll for a job',
-            Link:'/for-talent',
+            Link:'/for-talent/application/',
         },{
             picture: require('../../../Images/Home/h3.jpg'),
             title: 'Recruit Top Talent',
