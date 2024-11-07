@@ -12,14 +12,16 @@ const OurServices = () => {
     Title: 'Revolutionize your workforce with our innovative staffing services',
     MiniDesc: "We are reshaping the staffing industry through our innovative solutions and unwavering commitment to clients and candidates alike. With years of experience, we specialize in connecting exceptional talent with leading organizations, fostering shared success & growth.",
     BtnText: "Discuss to explore",
-    BtnLink: '/contact-us',
+    // BtnLink: '/contact-us',
+    PopUp:true,
   }
 
   const ContactData = {
     Tagline:'Elevate Your Operations with Talent Perfectly Suited to Your Business.',
     BtnText:'Connect With Global HR',
-    BtnLink:'/contact-us',
+    // BtnLink:'/contact-us',
     SidePic:require('../../Images/Services/s-5.jpg'),
+    PopUp:true,
   }
 
 

@@ -11,6 +11,7 @@ module.exports = {
       backgroundImage:{
         'special-bg-1': "url('/src/Images/section-bg-1.png')",
         'special-bg-2': "url('/src/Images/section-bg-2.png')",
+        'popup-bg-1': "url('/src/Images/Popups/One.jpg')",
       }
     },
   },

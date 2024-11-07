@@ -13,7 +13,7 @@ const Employers = () => {
     Title: 'Drive Business Growth with Quality Workforce Solutions',
     MiniDesc: "We offer top-tier talent and expert workforce insights. Our reports help you make informed decisions that drive business growth. Every candidate is rigorously screened to meet your needs, and we quickly replace any who don’t fit.",
     BtnText: "To Get Candidates",
-    BtnLink: '/contact-us',
+    BtnLink: '/for-employers/application/',
   }
 
   const IndustriesSection = {
@@ -26,7 +26,7 @@ const Employers = () => {
   const ContactData = {
     Tagline:'Accelerate Your Business with Top-Tier Talent Tailored to Your Needs.',
     BtnText:'To apply for talents',
-    BtnLink:'/contact-us',
+    BtnLink:'/for-employers/application/',
     SidePic:require('../../Images/Employers/e-5.jpg'),
   }
 

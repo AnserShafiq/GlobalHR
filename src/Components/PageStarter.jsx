@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import PopUp from './PopUp';
 
 const PageStarter = ({BodyData}) => {
   const [MobileView, setMobileView] = useState(false);
@@ -17,7 +18,15 @@ const PageStarter = ({BodyData}) => {
         <div className='flex items-start justify-center flex-col w-full lg:w-[50%]'>
           <h2 className='text-[2rem] lg:text-[2.2rem] font-[500] capitalize leading-tight text-slate-100' >{BodyData.Title}</h2>
           <h4 className='text-[1.15rem] lg:text-[1.125rem] font-[400] text-slate-100 my-5'>{BodyData.MiniDesc}</h4>
-          <Link className='text-[1.2rem] lg:text-[1.25rem] capitalize font-[400] text-slate-100 border-2 border-slate-100 rounded-md px-3 py-3 hover:text-[var(--logo-red-color)] bg-[#0000001f] hover:bg-slate-100 transition ease-in-out duration-[0.5s]' to={BodyData.BtnLink}>{BodyData.BtnText}</Link>
+          {
+            BodyData.PopUp === true ? (
+              <PopUp >{BodyData.BtnText}</PopUp>
+            ):(
+              <Link className='text-[1.2rem] lg:text-[1.25rem] capitalize font-[400] text-slate-100 border-2 border-slate-100 rounded-md px-3 py-3 hover:text-[var(--logo-red-color)] bg-[#0000001f] hover:bg-slate-100 transition ease-in-out duration-[0.5s]' to={BodyData.BtnLink}>{BodyData.BtnText}</Link>
+            )
+          }
+
+          
         </div>
         <div className=' w-full lg:w-[50%]'>
           <img className='w-[25rem] lg:w-[28rem] mx-auto' src={BodyData.Anime} alt='about us animation'/>

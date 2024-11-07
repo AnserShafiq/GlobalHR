@@ -8,8 +8,9 @@ const AboutUs = () => {
   const Data = {
       Tagline:'Get started and grow your business or career with us.',
       BtnText:'To hit your life target',
-      BtnLink:'/contact-us',
+      // BtnLink:'/contact-us',
       SidePic:require('../../Images/About/a-4.jpg'),
+      PopUp:true,
   }
 
   const PageStart = {
@@ -19,7 +20,7 @@ const AboutUs = () => {
     Title: 'Strategic Staffing for Distinct Industry Demands',
     MiniDesc: 'With over a decade of expertise, Global HR delivers comprehensive personnel management services. Our customized solutions help businesses overcome unique challenges, optimizing time and resources for better results.',
     BtnText: 'Get Connect With Us',
-    BtnLink: '/',
+    PopUp: true,
   }
 
   return (

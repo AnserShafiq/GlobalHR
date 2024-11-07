@@ -8,14 +8,14 @@ const SS_3 = () => {
             title:'Flexible Temporary Staffing Solutions',
             description:' When you need additional staff on short notice, we deliver skilled professionals who seamlessly integrate into your operations, ensuring continuity and efficiency throughout your business.',
             btnText: 'Apply to be a talent',
-            btnLink: '/for-talent',
+            btnLink: '/for-talent/application/',
             reverse: false,
         },{
             sideImg: require('../../../Images/Services/s-3.jpg'),
             title:'Secure Top Talent for Permanent Roles',
             description:'Skilled employees are essential to achieving lasting success. Our permanent recruitment services provide access to qualified professionals from our talent pool, ensuring your company is positioned for growth.',
             btnText: 'Apply to uplift business',
-            btnLink: '/for-employers',
+            btnLink: '/for-employers/application/',
             reverse: true,
         },{
             sideImg: require('../../../Images/Services/s-4.jpg'),

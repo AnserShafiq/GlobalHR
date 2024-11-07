@@ -4,7 +4,7 @@
 
 *{
     --logo-red-color: #88171f;
-    ---color: #ecdddd;
+    ---color: #f9f1f1;
 }
 
 ::-webkit-scrollbar{
@@ -26,5 +26,5 @@
 
 body{
     font-family: "Poppins", sans-serif;
-    background-color: #fff4f86c;
+    background-color: #fff4f87c;
 }
