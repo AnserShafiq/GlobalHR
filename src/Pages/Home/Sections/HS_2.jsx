@@ -22,7 +22,7 @@ const HS_2 = () => {
             title: 'Recruit Top Talent',
             description: 'Need to fill key roles? HR Global provides access to a vast network of qualified candidates to meet your recruitment needs.',
             button: 'To Seek Options',
-            Link: '/for-employers',
+            Link: '/for-employers/application/',
         },
     ];
 

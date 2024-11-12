@@ -18,7 +18,7 @@ const HS_5 = () => {
             title:'End-to-End Talent Management',
             description:'Streamline your hiring process with our end-to-end talent management services. From recruitment to onboarding and performance management, we ensure you have the right people in the right roles.',
             button: 'Connect with us',
-            link:'/for-talent',
+            link:'/for-talent/application/',
             reverse:true,
         },{
             sideImg: require('../../../Images/Home/h7.jpg'),
@@ -34,7 +34,7 @@ const HS_5 = () => {
             title:'Workforce Empowerment through Training',
             description:'Invest in your workforce with our innovative training programs. We offer workshops and courses that foster skill development, leadership training, and compliance education to empower your team.',
             button: 'Request any field',
-            link:'/for-employers',
+            link:'/for-employers/application/',
             reverse:true,
         },{
             sideImg: require('../../../Images/Home/h9.jpg'),
