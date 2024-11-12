@@ -84,10 +84,6 @@ const EmployersApplicationForm = () => {
                         <label className='text-[1.0rem] font-[600] lg:font-[500] tracking-wide lg:tracking-normal capitalize'>Contact Number</label>
                         <input className='text-[1.0rem] font-[400] px-5 py-2 border-[1px] bg-[#FFF4F8] rounded-xl' type="tel" name="contactNumber" value={applicationForm.generalInfo.contactNumber} placeholder="Enter your contact number" onChange={(e) => handleSpecialEntry(e, 1)} required />
                     </div>
-                    <div className="flex flex-col mb-2 lg:mb-2 w-full lg:w-[48%]">
-                        <label className='text-[1.0rem] font-[600] lg:font-[500] tracking-wide lg:tracking-normal capitalize'>Date Of Birth</label>
-                        <input className='text-[1.0rem] font-[400] px-5 py-2 border-[1px] bg-[#FFF4F8] rounded-xl cursor-pointer' type="date" name="dateOfBirth" value={applicationForm.personalInfo.dateOfBirth} onChange={(e) => handleFormChange(e, 1)} onFocus={(e) => e.target.showPicker()} required />
-                    </div>
 
                 </div>
                 
@@ -95,7 +91,7 @@ const EmployersApplicationForm = () => {
                 <div className='flex flex-row flex-wrap justify-between'>
                     <div className="flex flex-col mb-2 lg:mb-2 w-full lg:w-[48%]">
                         <label className='text-[1.0rem] font-[600] lg:font-[500] tracking-wide lg:tracking-normal capitalize'>Required Position</label>
-                        <input className='text-[1.0rem] font-[400] px-5 py-2 border-[1px] bg-[#FFF4F8] rounded-xl' type="text" name="targetIndustry" value={applicationForm.targetJob.targetIndustry} placeholder="Target industry" onChange={(e) => handleFormChange(e, 2)} required />
+                        <input className='text-[1.0rem] font-[400] px-5 py-2 border-[1px] bg-[#FFF4F8] rounded-xl' type="text" name="targetIndustry" value={applicationForm.requirementDetails.requiredPosition} placeholder="Target industry" onChange={(e) => handleFormChange(e, 2)} required />
                     </div>
                     <div className="flex flex-col mb-2 lg:mb-2 w-full lg:w-[48%]">
                         <label className='text-[1.0rem] font-[600] lg:font-[500] tracking-wide lg:tracking-normal capitalize'>Industry</label>
