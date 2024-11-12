@@ -95,7 +95,7 @@ const EmployersApplicationForm = () => {
                     </div>
                     <div className="flex flex-col mb-2 lg:mb-2 w-full lg:w-[48%]">
                         <label className='text-[1.0rem] font-[600] lg:font-[500] tracking-wide lg:tracking-normal capitalize'>Industry</label>
-                        <input className='text-[1.0rem] font-[400] px-5 py-2 border-[1px] bg-[#FFF4F8] rounded-xl' type="text" name="targetJobTitle" value={applicationForm.targetJob.targetJobTitle} placeholder="Target job fields" onChange={(e) => handleFormChange(e, 2)} required />
+                        <input className='text-[1.0rem] font-[400] px-5 py-2 border-[1px] bg-[#FFF4F8] rounded-xl' type="text" name="positionType" value={applicationForm.requirementDetails.positionType} placeholder="Target job fields" onChange={(e) => handleFormChange(e, 2)} required />
                     </div>
                     <div className="flex flex-col mb-2 lg:mb-2 w-full lg:w-[48%]">
                         <label className='text-[1.0rem] font-[600] lg:font-[500] tracking-wide lg:tracking-normal capitalize'>City</label>

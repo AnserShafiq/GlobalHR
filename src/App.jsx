@@ -12,6 +12,7 @@ import JobForTalent from './Pages/Applications/JobseekersForm'
 import ReactLoading from 'react-loading';
 import EmployersForm from './Pages/Applications/EmployersForm'
 
+
 const AppContent = () => {
   const location = useLocation();
   const [loading, setLoading] = useState(true);
@@ -40,7 +41,7 @@ const AppContent = () => {
         <Route path='/for-talent' element={<Talent />} />
         <Route path='/for-talent/application/' element={<JobForTalent />} />
         <Route path='/for-employers' element={<Employers />} />
-        <Route path='/for-employers/application/' element={<EmployersForm />} />
+        <Route path='/for-employers/application/' element={<EmployersForm />}/>
         <Route path='/our-services' element={<OurServices />} />
         <Route path='/contact-us' element={<ContactUs />} />
       </Routes>
